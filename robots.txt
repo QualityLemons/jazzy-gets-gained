@@ -1,0 +1,19 @@
+# Block OpenAI's GPTBot (used for ChatGPT training)
+User-agent: GPTBot
+Disallow: /
+
+# Block Google-Extended (used for Gemini/AI training)
+User-agent: Google-Extended
+Disallow: /
+
+# Block Common Crawl (a massive data source for many AI models)
+User-agent: CCBot
+Disallow: /
+
+# Block Anthropic's Claude bot
+User-agent: ClaudeBot
+Disallow: /
+
+# Block Apple's AI crawler
+User-agent: Applebot-Extended
+Disallow: /
